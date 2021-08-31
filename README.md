@@ -6,7 +6,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [System Scenario](#System-Scenario)
-* * [System Diagram](#system-Diagram)
+* [System Diagram](#system-Diagram)
 * [Setup](#setup)
 
 ## General info
@@ -35,8 +35,8 @@ Some software we needed:
 	
   
 ## System Diagram
-![Diagram](https://up4net.com/uploads4/up4net.com163043001571422.jpg)(https://up4net.com/uploads4/up4net.com163043001583693.jpg)
-(https://up4net.com/uploads4/up4net.com163043001589924.jpg)
+![Diagram](https://up4net.com/uploads4/up4net.com163043001571422.jpg)![Diagram](https://up4net.com/uploads4/up4net.com163043001583693.jpg)
+![Diagram](https://up4net.com/uploads4/up4net.com163043001589924.jpg)
 ## Setup
 To run this project:
 first "test" the smart contract
