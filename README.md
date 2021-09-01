@@ -5,6 +5,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [WebTest](#Web)
 * [System Scenario](#System-Scenario)
 * [System Diagram](#system-Diagram)
 * [Setup](#setup)
@@ -27,8 +28,10 @@ Some software we needed:
 * Visual Studio Code
 
 
-
-
+## WebTest
+![[WebTest](https://up4net.com/uploads4/up4net.com163049619578792.jpg)
+![[WebTest](https://up4net.com/uploads4/up4net.com163049619566521.jpg)
+![[WebTest](https://up4net.com/uploads4/up4net.com163049619586253.jpg)
 ## System Scenario
 
 ![interface](https://up4net.com/uploads4/up4net.com163043001566181.jpg)
