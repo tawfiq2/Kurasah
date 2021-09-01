@@ -29,15 +29,16 @@ Some software we needed:
 
 
 ## WebTest
-![[WebTest](https://up4net.com/uploads4/up4net.com163049619578792.jpg)![[WebTest](https://up4net.com/uploads4/up4net.com163049619566521.jpg)![[WebTest](https://up4net.com/uploads4/up4net.com163049619586253.jpg)
+![Diagram](https://up4net.com/uploads4/up4net.com163049619578792.jpg)![Diagram](https://up4net.com/uploads4/up4net.com163049619566521.jpg)
+![Diagram](https://up4net.com/uploads4/up4net.com163049619586253.jpg)
 ## System Scenario
 
 ![interface](https://up4net.com/uploads4/up4net.com163043001566181.jpg)
 	
   
 ## System Diagram
-![Diagram](https://up4net.com/uploads4/up4net.com163043001571422.jpg)![Diagram](https://up4net.com/uploads4/up4net.com163043001583693.jpg)
-![Diagram](https://up4net.com/uploads4/up4net.com163043001589924.jpg)
+![Diagram](https://up4net.com/uploads4/up4net.com163049619578792.jpg)![Diagram](https://up4net.com/uploads4/up4net.com163049619566521.jpg)
+![Diagram](https://up4net.com/uploads4/up4net.com163049619586253.jpg)
 ## Setup
 To run this project:
 first "test" the smart contract
