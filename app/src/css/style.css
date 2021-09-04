@@ -1,12 +1,7 @@
 /* [ -- Master Stylesheet -- ] */
 /* ##################################################
 
-:: Template Name: South - Real Estate Agency Template
-:: Author: Colorlib
-:: Author URL: https://colorlib.com
-:: Version: 1.0
-:: Created: 15 April 2018
-:: Last Updated: 25 April 2018
+:: Template Name: Kurasah
 
 ################################################## */
 /* ##### Index of Stylesheet #####
@@ -48,6 +43,7 @@
 @import url(css/themify-icons.css);
 @import url(css/nice-select.css);
 @import url(css/jquery-ui.min.css);
+@import url(css/font.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -993,7 +989,7 @@ img {
     z-index: 1;
     padding: 100px 5%; }
     .south-editor-area .editor-content-area .section-heading {
-      text-align: left;
+      text-align: center;
       margin-bottom: 50px; }
     .south-editor-area .editor-content-area .address {
       margin-top: 30px; }

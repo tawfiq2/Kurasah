@@ -13,27 +13,93 @@
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/app/css/animate.css">
-    <link rel="stylesheet" href="/app/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/app/css/classy-nav.min.css">
-    <link rel="stylesheet" href="/app/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/app/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="/app/css/magnific-popup.css">
-    <link rel="stylesheet" href="/app/css/nice-select.css">
-    <link rel="stylesheet" href="/app/css/owl.carousel.css">
-    <link rel="stylesheet" href="/app/css/themify-icons.css">
+      <!-- Style CSS -->
 
-        <!-- Template Main CSS File -->
-  <link href="style.css" rel="stylesheet"> 
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous">
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="/app/src/css/style.css">
+  
+  
+          <!-- Template Main CSS File -->
+    <link href="style.css" rel="stylesheet"> 
+  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  
+  
   
 </head>
+<style>
+    input {
+      display: block;
+      margin-bottom: 15px;
+  
+    }
+    .btn {
+    background-color: #8171b9;
+    border-color: #fffeff;
+    color: #361b38;
+    font-size: 0.7rem;
+    margin: 4vh 0 1.5vh 0;
+    padding: 1.5vh;
+    border-radius: 4;
+    padding: 1vh;
+    width: 40%;
+    margin: 0 auto;
+    font-family: var(--Sniglet-font);
 
+
+
+}
+div.a {
+  text-align: center;
+}*
+{
+    box-sizing: border-box;
+}
+
+.border {
+    border: 1px solid #0a58ca!important;
+}
+* {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+</style>
 <body>
     <!-- Preloader -->
     <div id="preloader">
@@ -83,8 +149,14 @@
                                 <li><a href="about-us.html">من نحن</a></li>
                                 <li><a href="blog.html">شركاؤنا</a></li>
                                 <li>
-                                    <a href="http://kurasahfinal.herokuapp.com/" >الخدمات الاكترونية</a>
-                                  </li>
+                                    <a href="#">الصفحات</a>
+                                    <ul class="dropdown">
+                                        <li><a href="add.html">إدارة المنافسات</a></li>
+                                        <li><a href="bid.html">التسجيل في المنافسات</a></li>
+                                        <li><a href="announcment.html">نتائج المنافسات</a></li>
+                                     
+                                    </ul>
+                                </li>
                                 <li><a href="listings.html">التراخيص الاكترونية</a></li>
 
                                 
@@ -139,7 +211,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcumb-content">
-                        <h3 class="breadcumb-title">من نحن</h3>
+                        <h3 class="breadcumb-title">التسجيل</h3>
                     </div>
                 </div>
             </div>
@@ -164,38 +236,25 @@
                                     <div class="form-group">
 
 
-                       <p><h5>إنشاء كراسة المشروع<br>
+                       <p><h5>شراء كراسة المنافسة<br>
                      ________________________________________
                       </h5></p>
                     <div class="row lower">
                     <div class="col-xs-4 control-group form-group">
                     <div class="controls">
-           
-                <br>
-                <span><h4>إنشاء المنافسة</h4></span><input id="createTender" placeholder="أسم المشروع"/> 
-                <button class="btn" onclick="App.createTender()"><h5>إنشاء</h5></button>
-                <br>
+          
                         
                 <br>
-                <span><h4>الدخول في المنافسة</h4></span><input id="bid" placeholder="أسم المشروع"/> 
-                 <input id="bid" placeholder=" عنوان المحفظة"/> 
+                <span><h4>الدخول في المنافسة</h4></span><input id="bidding" placeholder="أسم المشروع"/> 
+                 <input id="user" placeholder=" عنوان المحفظة"/> 
                 <button class="btn" onclick="App.bid()"><h5>تسجيل</h5></button>
                 <br>
                         
-                 
-                <br>
-                <span><h4>عدد المنافسين</h4></span><input id="numberOfBids" placeholder="أسم المشروع"/> 
-                <button class="btn" onclick="App.numberOfBids()"><h5>إدخال</h5></button>
-                <br>
                 
-                <span><h4>اغلاق المنافسة</h4></span><input id="closeBid" placeholder="أسم المشروع"/> 
-                <button class="btn" onclick="App.closeBid()"><h5>إغلاق </h5></button>
-                
-                <span><h4>أعلان الترسية </h4></span><input id="announce" placeholder="أسم المشروع"/> 
-                <button class="btn" onclick="App.announce()"><h5>أعلان  </h5></button>
+     
 
                 <span><h4>استرداد مبلغ المنافسة</h4></span><input id="withdraw" placeholder="أسم المشروع"/> 
-                    <input id="withdraw" placeholder=" عنوان المحفظة"/> 
+                    <input id="user" placeholder=" عنوان المحفظة"/> 
                 <button class="btn" onclick="App.withdraw()"><h5>إسترداد </h5></button>
                  
                 
@@ -358,6 +417,8 @@
     <!-- Active js -->
     <script src="js/active.js"></script>
 
+    <p id="status"></p>
+<script src="index.js"></script>
 </body>
 
 </html>
