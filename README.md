@@ -41,37 +41,33 @@ Some software we needed:
 ![Diagram](https://up4net.com/uploads4/up4net.com163043001571422.jpg)![Diagram](https://up4net.com/uploads4/up4net.com163043001583693.jpg)
 ![Diagram](https://up4net.com/uploads4/up4net.com163043001589924.jpg)
 
-
+	
 ## Setup
-## Getting Started with Create React App
+To run this project:
+first "test" the smart contract
+write in the terminal of VS the following commands:
 
-
-# Available Scripts
-
-In the project directory, you can run:
-
-# `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-# `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-# `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-
-
-# `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
+To initiate  truffle folders:
+```
+$ truffle init
+```
+Second: to write frontend  with webpack we need to install truffle webpack:
+```
+$ npx truffle unbox webpack
+```
+After upload the smart contract and test.js write these  commands:
+```
+$ truffle develop
+$ migrate --reset
+$ test
+```
+After done index.html and index.js write these  commands:
+```
+$ truffle compile
+$ truffle migrate
+$ truffle test
+$ cd app
+$ npm run dev
+```
 
 
